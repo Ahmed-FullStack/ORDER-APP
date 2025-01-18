@@ -26,6 +26,9 @@ function App() {
 					<NavLink to='/' end>
 						hone
 					</NavLink>
+					<NavLink to='/add' end>
+						add
+					</NavLink>
 				</div>
 
 				<Routes>
@@ -33,6 +36,9 @@ function App() {
 				</Routes>
 				<Routes>
 					<Route path='/' element={<h3>home</h3>} />
+				</Routes>
+				<Routes>
+					<Route path='/add' element={<h3>add</h3>} />
 				</Routes>
 			</BrowserRouter>
 		</>
